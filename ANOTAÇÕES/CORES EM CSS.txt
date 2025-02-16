@@ -1,0 +1,4 @@
+h1 style="color: blue;"// cores das linhas ja na tag
+body style="background-color: red;"// cor do fundo ja no fundo
+
+posso usar varios links de estilos no msm arquivo 
