@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top ;
-            background-repeat: no-repeat;
-            background-size: cover
-            <!-- cover e contain para adaptar tamanho de imagem-->
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;  
+         /* cover e contain para adaptar tamanho de imagem */
+
+           background-attachment: fixed;  /* deixar imagem fixa */
+        
+          /*  shorthand background 
+                color > image > position > repeat > [size] > attachment
+          */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
@@ -28,6 +36,11 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, praesentium, omnis rerum facilis illum, sequi optio est voluptatum ut ipsa delectus iste cum voluptates temporibus veritatis aliquid sit repellendus ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, praesentium dolor ab adipisci accusamus ullam expedita vel numquam? Atque ducimus at nisi, tenetur deserunt enim optio magnam repellendus fugit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat deserunt eum distinctio est et ducimus, aliquid voluptate! Ullam quis et cupiditate id hic, at voluptatem obcaecati vitae fugit fugiat! Exercitationem.</p>
 
     </main>
